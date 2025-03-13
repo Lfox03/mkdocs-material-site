@@ -1,0 +1,62 @@
+site_name: Les cours du renard
+site_url: https://sitename.example
+theme:
+  name: material
+  language: fr 
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - navigation.path
+    - toc.integrate
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  status:
+    new: Nouveau
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2025 Lfox
