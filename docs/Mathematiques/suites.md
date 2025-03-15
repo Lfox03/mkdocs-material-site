@@ -7,18 +7,19 @@ description: chapitre 1 - Suites numériques et récurrence.
 
 ## Introduction
 
-Dans ce chapitre, il s'agit de développer la notion de suite, étudiée en Première, et d'utiliser les propriétés de nouvelles fonctions introduites en Terminale.
+> Dans ce chapitre, il s'agit de développer la notion de suite, étudiée en Première, et d'utiliser les propriétés de nouvelles fonctions introduites en Terminale.
+
+---
 
 ## 1. Suites particulières
 
 ### 1.1 Suites arithmétiques
 
-!!! note "Définition"
-    La suite $(u_n)$ est une suite arithmétique si :
+La suite $(u_n)$ est une suite arithmétique si :
 
-    Pour tout $n \in \mathbb{I}$ (où $\mathbb{I}$ est un sous ensemble de $\mathbb{N}$), on a:
+&nbsp;&nbsp;Pour tout $n \in \mathbb{I}$ (où $\mathbb{I}$ est un sous ensemble de $\mathbb{N}$), on a:
 
-    $$ u_{n+1}-u_n = r$$
+$$ u_{n+1}-u_n = r$$
 
 !!! example "Exercice"
     soit la suite $(u_n)$ définie par :
@@ -32,14 +33,13 @@ Dans ce chapitre, il s'agit de développer la notion de suite, étudiée en Prem
 
 ### 1.2 Suites géométriques
 
-!!! note "Définition"
-    La suite $(V_n)$ est une suite géométrique si :
+La suite $(V_n)$ est une suite géométrique si :
 
-    &nbsp;&nbsp;Pour tout $n \in \mathbb{I}$ (où $\mathbb{I}$ est un sous ensemble de $\mathbb{N}$), on a:
+&nbsp;&nbsp;Pour tout $n \in \mathbb{I}$ (où $\mathbb{I}$ est un sous ensemble de $\mathbb{N}$), on a:
 
-    $$ V_{n+1}=qV_n$$
+$$ V_{n+1}=qV_n$$
 
-    ??? info "remarque"
+???+ info "remarque"
     On précisera toujours la raison $q$ et le $1^{er}$ terme de la suite.
 
 !!! example "Exercice"
@@ -54,9 +54,11 @@ Dans ce chapitre, il s'agit de développer la notion de suite, étudiée en Prem
         
         Donc $(V_n)$ est une suite géométrique de raison $q=\frac{1}{2}$ et de $1^{er}$ terme $V_2=\frac{3}{4}$
 
+---
+
 ## 2. Limite d'une suite
 
-### Notations
+### 3.1 Notations
 Une suite numérique est une application de $\mathbb{N}$ dans $\mathbb{R}$ :
 
 !!! warning inline end "attention !"
@@ -79,32 +81,36 @@ De même, si $(u_0)$ et $(u_1)$ ne sont pas définis, la suite sera notée $(u_n
 
     Soit $(u_n)$ une suite numérique.
 
-## Opérations sur les limites
+---
+
+## 3. Opérations sur les limites
 
 Soit $u$ et $v$ deux suites.
 
-### A. Somme
+### 3.1 Somme
 
 |    **si $u$ tend vers**   |   $l$  |    $l$    |    $l$    | $+\infty$ | $+\infty$ | $+\infty$ |
 |:-------------------------:|:------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |  **et si $v$ tend vers**  |  $l'$  | $+\infty$ | $-\infty$ | $+\infty$ | $+\infty$ | $-\infty$ |
 | **alors $u+v$ tend vers** | $l+l'$ | $+\infty$ | $-\infty$ | $+\infty$ | $+\infty$ |    F.I.   |
 
-### B. Produit
+### 3.2 Produit
 
 |    **si $u$ tend vers**   |   $l$  |   $l>0$   |   $l>0$   |   $l<0$   |   $l<0$   | $+\infty$ | $+\infty$ | $-\infty$ | 0         |
 |:-------------------------:|:------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|-----------|
 |  **et si $v$ tend vers**  |  $l'$  | $+\infty$ | $-\infty$ | $+\infty$ | $-\infty$ | $+\infty$ | $-\infty$ | $-\infty$ | $+\infty$ |
 | **alors $u*v$ tend vers** | $l*l'$ | $+\infty$ | $-\infty$ | $-\infty$ | $+\infty$ | $+\infty$ | $-\infty$ | $+\infty$ | F.I.      |
 
-### C. Quotient
+### 3.3 Quotient
 
 |        **si $u$ tend vers**       |       $l$      |     $l$     | $+\infty$ | $+\infty$ | $-\infty$ | $-\infty$ |   0  | $\pm\infty$ |
 |:---------------------------------:|:--------------:|:-----------:|:---------:|:---------:|:---------:|:---------:|:----:|:-----------:|
 |      **et si $v$ tend vers**      |    $l\neq0$    | $\pm\infty$ |   $l'>0$  |   $l'<0$  |   $l'>0$  |   $l'<0$  |   0  | $\pm\infty$ |
 | **alors $\frac{u}{v}$ tend vers** | $\frac{l}{l'}$ |      0      | $+\infty$ | $-\infty$ | $-\infty$ | $+\infty$ | F.I. |     F.I.    |
 
-## Théorème de la convergence monotone
+---
+
+## 4. Théorème de la convergence monotone
 
 !!! note "Définition"
     Une suite croissante et majorée est convergente

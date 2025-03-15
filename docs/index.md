@@ -4,23 +4,22 @@ description: l'accueil du site du renard
 ---
 # Bienvenue sur les cours du renard !
 
-Ce site regroupe les tous les cours de mathématiques et de NSI de terminale !!!
+!!! bug "Panne sur l'affichage mathématique"
+    **L'affichage des notations 'mathématiques' est hors service.**
+    
+    Ce site utilise un outil externe pour afficher les formules mathématiques, or le site qui héberge l'outil semble être actuellement hors ligne. 
+    
+    Le rendu des formules mathématiques sur le site est donc temporairement indisponible.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Contenu
 
-## Structure du site
+Ce site est un résumé de la plupart des cours de terminale.
 
-    Accueil (vous êtes ici !)
-    Mathématiques/
-        Accueil 
-        Suites et récurrence
-        ...
-    NSI/
-        Boucles
-        Bases de données
-        ...
+* Mathématiques
+* NSI
+* Plus à venir !
+
+## Notes
+
+Le site est tout nouveau et en pleine construction, et je suis pour l'instant le seul à le gérer. Le contenu reste donc pour l'instant assez limité.

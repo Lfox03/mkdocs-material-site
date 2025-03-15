@@ -1,8 +1,6 @@
 ---
 title: Probabilitées
-description: des fonctions et définitions de base pour la NSI.
+description: Section probabilitées (A venir).
 ---
 
-# Loi de Bernoulli de paramètre P
-
-# Loi binomiale
+# _A venir..._

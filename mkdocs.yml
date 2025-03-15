@@ -1,13 +1,16 @@
 site_name: Les cours du renard
-site_url: https://sitename.example
+site_url: https://lfox03.github.io/cours
 theme:
   name: material
   language: fr 
   logo: assets/logo.png
+  favicon: assets/logo.png
   features:
+    - navigation.indexes 
     - navigation.tabs
     - navigation.footer
     - navigation.path
+    - navigation.top
     - toc.integrate
   palette: 
 
